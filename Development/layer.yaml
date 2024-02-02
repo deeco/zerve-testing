@@ -1,0 +1,70 @@
+id: fe9c4d5e-71d6-4407-817e-5644e5f5e593
+name: Development
+type: 1
+canvas_id: e1263a82-c1e6-4749-bdb2-31200719b55d
+blocks:
+- auto_size: false
+  canvas_id: e1263a82-c1e6-4749-bdb2-31200719b55d
+  cpu: null
+  description: ''
+  height: 500
+  id: 875528a2-7684-4d39-84b3-444a1cd4f2e9
+  is_fargate: false
+  layer_id: fe9c4d5e-71d6-4407-817e-5644e5f5e593
+  memory: null
+  name: Cleaning and Analyzing
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 800
+  x: -7773
+  y: -9995
+- auto_size: false
+  canvas_id: e1263a82-c1e6-4749-bdb2-31200719b55d
+  cpu: null
+  description: ''
+  height: 500
+  id: 5b7f92a0-72c1-4f31-97ad-1b0fbf1fd765
+  is_fargate: false
+  layer_id: fe9c4d5e-71d6-4407-817e-5644e5f5e593
+  memory: null
+  name: Scraping
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 800
+  x: -8962
+  y: -10020
+- auto_size: false
+  canvas_id: e1263a82-c1e6-4749-bdb2-31200719b55d
+  cpu: null
+  description: ''
+  height: 500
+  id: 21dcaa89-e4b2-427c-8a60-ef26a8f94188
+  is_fargate: false
+  layer_id: fe9c4d5e-71d6-4407-817e-5644e5f5e593
+  memory: null
+  name: import
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 800
+  x: -10224
+  y: -10016
+edges:
+- canvas_id: e1263a82-c1e6-4749-bdb2-31200719b55d
+  id: 76ca261c-93cb-4949-88cc-5500378b7784
+  layer_id: fe9c4d5e-71d6-4407-817e-5644e5f5e593
+  source: 21dcaa89-e4b2-427c-8a60-ef26a8f94188
+  target: 5b7f92a0-72c1-4f31-97ad-1b0fbf1fd765
+- canvas_id: e1263a82-c1e6-4749-bdb2-31200719b55d
+  id: 3605401f-e7eb-4e64-bf91-ceb78ce290d6
+  layer_id: fe9c4d5e-71d6-4407-817e-5644e5f5e593
+  source: 5b7f92a0-72c1-4f31-97ad-1b0fbf1fd765
+  target: 875528a2-7684-4d39-84b3-444a1cd4f2e9

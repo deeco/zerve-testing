@@ -15,7 +15,7 @@ blocks:
   name: Cleaning and Analyzing
   parent_id: null
   properties: {}
-  status: 3
+  status: 1
   type: 1
   variables: null
   width: 800
@@ -33,7 +33,7 @@ blocks:
   name: Scraping
   parent_id: null
   properties: {}
-  status: 3
+  status: 1
   type: 1
   variables: null
   width: 800
